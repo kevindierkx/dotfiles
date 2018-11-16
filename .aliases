@@ -9,6 +9,7 @@ alias -- -="cd -"
 
 # Shortcuts
 alias proj="cd /Volumes/Projects"
+alias c="clear"
 alias g="git"
 
 # Detect which `ls` flavor is in use
