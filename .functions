@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Accessing Homestead Globally
+function homestead() {
+    ( cd ~/Homestead && vagrant $* )
+}
