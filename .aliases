@@ -11,6 +11,7 @@ alias -- -="cd -"
 alias proj="cd /Volumes/Projects"
 alias c="clear"
 alias g="git"
+alias sr="ssh -l root"
 
 # Detect 'gls' availability.
 if gls > /dev/null 2>&1; then
