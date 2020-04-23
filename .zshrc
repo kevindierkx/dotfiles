@@ -12,6 +12,9 @@ plugins=(
   git ssh-agent
 )
 
+# Instruct ssh-agent to load multiple key types
+zstyle :omz:plugins:ssh-agent identities id_rsa id_ed25519
+
 source $ZSH/oh-my-zsh.sh
 
 # Load the shell dotfiles, and then some:
