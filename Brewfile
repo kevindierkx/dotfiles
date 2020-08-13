@@ -11,6 +11,7 @@ brew 'git'
 brew 'gnupg2'
 brew 'grep'
 brew 'pkg-config'
+brew 'svn'
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
 
