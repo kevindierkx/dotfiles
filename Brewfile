@@ -10,7 +10,6 @@ brew 'ffmpeg'
 brew 'git'
 brew 'gnupg2'
 brew 'grep'
-brew 'mas' # Mac App Store manager
 brew 'pkg-config'
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
@@ -69,6 +68,3 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
-
-# Mac App Store
-mas 'Byword', id: 420212497
