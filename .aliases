@@ -8,6 +8,7 @@ alias .....="cd ../../../.."
 alias -- -="cd -"
 
 # Shortcuts
+alias art=artisan
 alias proj="cd /Volumes/Projects"
 alias c="clear"
 alias sr="ssh -l root"

@@ -4,3 +4,7 @@
 function homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
+
+function artisan() {
+    php artisan "$@"
+}

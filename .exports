@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-# Include composer bin in path
+# Include Homebrew's sbin in path.
+export PATH="/usr/local/sbin:$PATH"
+
+# Include composer bin in path.
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Make vim the default editor.
