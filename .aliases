@@ -10,8 +10,10 @@ alias -- -="cd -"
 # Shortcuts
 alias proj="cd /Volumes/Projects"
 alias c="clear"
-alias g="git"
 alias sr="ssh -l root"
+
+# Show timestamps in history command.
+alias history="history -t'%F %T'"
 
 # Detect 'gls' availability.
 if gls > /dev/null 2>&1; then
