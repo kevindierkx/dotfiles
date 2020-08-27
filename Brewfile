@@ -10,6 +10,8 @@ brew 'ffmpeg'
 brew 'git'
 brew 'gnupg2'
 brew 'grep'
+brew 'mackup'
+brew 'mas' # Mac App Store manager
 brew 'pkg-config'
 brew 'svn'
 brew 'tree' # List directories in a tree structure
