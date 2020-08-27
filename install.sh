@@ -21,7 +21,7 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 pecl install memcached imagick
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet hirak/prestissimo
+/usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet hirak/prestissimo friendsofphp/php-cs-fixer
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
