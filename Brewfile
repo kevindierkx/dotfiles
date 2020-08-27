@@ -51,6 +51,7 @@ cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
+cask 'itsycal'
 cask 'java'
 cask 'paw'
 cask 'slack'
@@ -73,3 +74,8 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+
+# Mac App Store
+mas 'Magnet', id: 441258766
+mas 'Todoist', id: 585829637
+mas 'The Unarchiver', id: 425424353
