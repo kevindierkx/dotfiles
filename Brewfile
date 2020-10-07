@@ -76,7 +76,6 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'CleanMyMac X', id: 1339170533
 mas 'Magnet', id: 441258766
 mas 'Todoist', id: 585829637
 mas 'The Unarchiver', id: 425424353
