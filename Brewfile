@@ -56,7 +56,6 @@ cask 'spotify'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
-cask 'transmission'
 cask 'vagrant'
 cask 'virtualbox-extension-pack'
 cask 'virtualbox' # Might need to allow access in Security settings
