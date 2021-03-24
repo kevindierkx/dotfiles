@@ -34,7 +34,6 @@ brew 'mysql'
 brew 'nginx'
 brew 'node'
 brew 'redis'
-brew 'yarn'
 
 # Apps
 cask '1password-cli'
