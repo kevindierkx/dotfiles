@@ -36,7 +36,6 @@ brew 'node'
 brew 'redis'
 
 # Apps
-cask '1password-cli'
 cask '1password'
 cask 'dbngin'
 cask 'docker'
