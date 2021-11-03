@@ -70,6 +70,4 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 mas 'Magnet', id: 441258766
-mas 'Todoist', id: 585829637
-mas 'The Unarchiver', id: 425424353
 mas 'Xcode', id: 497799835
