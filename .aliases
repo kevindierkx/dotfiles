@@ -2,6 +2,7 @@
 
 # Shortcuts
 alias art=artisan
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 alias proj="cd /Volumes/Projects"
 alias c="clear"
 alias sr="ssh -l root"
