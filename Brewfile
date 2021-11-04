@@ -14,48 +14,32 @@ brew 'mas' # Mac App Store manager
 brew 'pkg-config'
 brew 'svn'
 brew 'tree' # List directories in a tree structure
-brew 'zlib' # Needed for Memcached
-
-# Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
 
 # Development
 brew 'php'
 brew 'php@7.4'
 brew 'composer'
-brew 'imagemagick'
-brew 'libmemcached'
-brew 'memcached'
-brew 'mysql'
-brew 'nginx'
 brew 'node'
-brew 'redis'
 
 # Apps
 cask '1password'
-cask 'dbngin'
 cask 'docker'
 cask 'firefox'
 cask 'forklift'
-cask 'google-drive'
 cask 'google-chrome'
+cask 'google-drive'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
 cask 'java'
+cask 'parallels'
 cask 'paw'
 cask 'spotify'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'vagrant'
-cask 'virtualbox-extension-pack'
-cask 'virtualbox' # Might need to allow access in Security settings
 cask 'visual-studio-code'
 cask 'vlc'
 
