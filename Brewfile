@@ -40,6 +40,7 @@ cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'vagrant'
+cask 'viscosity'
 cask 'visual-studio-code'
 cask 'vlc'
 
