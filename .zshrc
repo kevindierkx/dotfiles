@@ -17,7 +17,7 @@ ZSH_THEME="kevin"
 
 # Which plugins would you like to load?
 plugins=(
-  git ssh-agent gpg-agent
+  ssh-agent gpg-agent zsh-syntax-highlighting
 )
 
 # Instruct ssh-agent to load multiple key types
