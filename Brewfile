@@ -18,6 +18,7 @@ brew 'tree' # List directories in a tree structure
 # Development
 brew 'php'
 brew 'php@7.4'
+brew 'php@8.0'
 brew 'composer'
 brew 'node'
 
