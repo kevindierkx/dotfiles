@@ -86,7 +86,7 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # Add aliases to quickly switch between installed PHP versions
-installedPhpVersions=($(brew ls --versions | ggrep -E 'php(@.*)?\s' | ggrep -oP '(?<=\s)\d\.\d' | sed -e 's/\.//g' | uniq | sort))
+installedPhpVersions=($(brew ls --versions | ggrep -E 'php(@.*)?\s' | ggrep -oP '(?<=\s)\d\.\d' | uniq | sort))
 
 for phpVersion in ${installedPhpVersions[*]}; do
     value="{"
