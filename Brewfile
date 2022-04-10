@@ -6,6 +6,7 @@ tap 'homebrew/bundle'
 # Binaries
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'doctl'
 brew 'ffmpeg'
 brew 'git'
 brew 'grep'
@@ -13,7 +14,6 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config'
 brew 'svn'
-brew 'tree' # List directories in a tree structure
 
 # Development
 brew 'php'
