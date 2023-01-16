@@ -86,8 +86,9 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # Add aliases to quickly switch between installed PHP versions
-alias php81='brew unlink php@7.4; brew link php@8.1 --force --overwrite;'
-alias php74='brew unlink php@8.1; brew link php@7.4 --force --overwrite;'
+alias php82='brew unlink php@7.4; brew unlink php@8.1; brew link php@8.2 --force --overwrite;'
+alias php81='brew unlink php@7.4; brew unlink php@8.2; brew link php@8.1 --force --overwrite;'
+alias php74='brew unlink php@8.1; brew unlink php@8.2; brew link php@7.4 --force --overwrite;'
 
 # installedPhpVersions=($(brew ls --versions | ggrep -E 'php(@.*)?\s' | ggrep -oP '(?<=\s)\d\.\d' | uniq | sort))
 
