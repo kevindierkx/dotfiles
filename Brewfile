@@ -17,7 +17,6 @@ brew 'svn'
 
 # Development
 brew 'php'
-brew 'php@7.4'
 brew 'php@8.1'
 brew 'composer'
 brew 'node'
