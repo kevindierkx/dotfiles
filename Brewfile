@@ -24,14 +24,13 @@ brew 'node'
 
 # Apps
 cask '1password'
+cask 'cleanmymac'
 cask 'docker'
 cask 'firefox'
-cask 'forklift'
 cask 'google-chrome'
 cask 'google-drive'
 cask 'gpg-suite'
 cask 'imageoptim'
-cask 'insomnia'
 cask 'iterm2'
 cask 'java'
 cask 'nextcloud'
@@ -45,7 +44,6 @@ cask 'the-unarchiver'
 cask 'vagrant'
 cask 'viscosity'
 cask 'visual-studio-code'
-cask 'vlc'
 
 # Fonts
 cask 'font-lato'
