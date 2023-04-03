@@ -56,4 +56,3 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 mas 'Magnet', id: 441258766
-mas 'Xcode', id: 497799835
